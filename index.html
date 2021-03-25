@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CodePath Memory Game</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" der></script>
+  </head>
+  <body>
+    <div class="page">
+      <h1 class="page-title">Light and Sound Memory Game</h1>
+      <p id="page-subtitle" class="page-subtitle">
+        Repeat the pattern back to win!
+      </p>
+      <button id="start-btn" class="start-btn start" onclick="onStart()">
+        Start
+      </button>
+      <div class="game-board">
+        <div id="btn-1" class="game-btn" onclick="clicked(1)"></div>
+        <div id="btn-2" class="game-btn" onclick="clicked(2)"></div>
+        <div id="btn-3" class="game-btn" onclick="clicked(3)"></div>
+        <div id="btn-4" class="game-btn" onclick="clicked(4)"></div>
+      </div>
+      <p id="current-turn" class="current-turn">Turn: 1/8 </p>
+    </div>
+  </body>
+</html>
