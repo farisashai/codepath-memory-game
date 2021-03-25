@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+.page {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.page-title {
+  font-size: max(5vw, 30px);
+  margin: 5vh 0;
+}
+
+.page-subtitle, .current-turn {
+  font-size: max(3vw, 20px);
+}
+
+.start-btn {
+  color: white;
+  border: none;
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 10px 0 0 0;
+  transition: 0.15s ease-in-out;
+}
+
+.start {
+  background-color: #06d6a0;
+}
+.stop {
+  background-color: #CD4631;
+}
+.start-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.game-board {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 5vh;
+}
+
+.game-btn {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.active {
+  filter: saturate(5);
+  border-color: #26bf47;
+  box-shadow: 0 0 10px white;
+  transform: scale(1.05);
+}
+
+#btn-1 {
+  background-color: #9CFC97;
+}
+
+#btn-2 {
+  background-color: #d0f4ea;
+}
+
+#btn-3 {
+  background-color: #88ccf1;
+}
+
+#btn-4 {
+  background-color: #ffc15e;
+}
+
+
