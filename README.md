@@ -34,12 +34,12 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 - [X] Keeps track of the current turn for  the user.
-- [ ] List anything else that you can get done to improve the app!
+- [x] Scale and glow effect on active button to  increase visibility
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-![X](your-link-here)
+![X] http://g.recordit.co/X6blFrqiQ8.gif
 
 
 ## Reflection Questions
